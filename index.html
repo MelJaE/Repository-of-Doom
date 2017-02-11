@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CSS Tutorial</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>CSS Tutorial</h1>
+    </header>
+    <div>
+        <h2>The purpose of this page is to display some new CSS techniques.</h2>
+        <div class="txt">
+            <p>Primarily, this page discusses captioning and overlaying captions and text on pictures.<br>
+            The web page I referenced seems more like a blog than a technical article.  The link is:
+            <a href="https://www.designlabthemes.com/text-over-image-with-css/">Text over image with CSS</a>
+            <br>The page talks about adding captions over pictures and using the gradiant option to change the picture in case the text doesn't contrast well against it.</p>
+        </div>
+        <div class="txt">
+            <h3>Text over image with gradiant linear example:</h3>
+            <p>Here is the original picture:</p>
+            <img src="images/duck.jpg" alt="duck"/>
+            <p>Now here is the picture again. Notice how the gradient linear color scheme makes the picture appear darker, so that the text is easy to read.</p>
+            <figure id="cap">
+                <img src="images/duck.jpg" alt="duck" />
+                <figcaption id="cap-text">Text displaying over the image.</figcaption>
+            </figure>
+            <h3>Text over image - hover example:</h3>
+            <figure id="cap2">
+                <img src="images/duck.jpg" alt="Duck" />
+                <figcaption id="cap2-text">This text appears when you move your mouse over this "figure" element.</figcaption>
+            </figure>
+            <p>No gradiant option is used above.</p>
+        </div>
+    </div>
+</body>
+</html>
